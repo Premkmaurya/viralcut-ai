@@ -1,0 +1,14 @@
+node_modules/
+client/node_modules/
+storage/jobs/
+storage/uploads/
+storage/*.db*
+tests/fixtures/*.mp4
+tests/fixtures/*.wav
+tests/fixtures/*.ass
+.env
+dist/
+client/dist/
+.DS_Store
+Thumbs.db
+.venv

@@ -1,0 +1,32 @@
+{
+  "name": "viralcut-ai",
+  "version": "1.0.0",
+  "description": "ViralCut AI - Turn long-form videos into vertical YouTube Shorts with AI highlights",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "youtube-shorts",
+    "video-processing",
+    "ffmpeg",
+    "whisper",
+    "ai-clips"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.1.0"
+  }
+}
